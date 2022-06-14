@@ -1,1 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  height: 355px;
+}
+
+.simb {
+  font-size: 70px;
+}
+
+.num {
+  font-size: 95px;
+}
+
+/* ♦ ♥ ♠ ♣ */
