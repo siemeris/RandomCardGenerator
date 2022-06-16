@@ -1,3 +1,14 @@
+# Random card Generator
+The following functionalities are included:
+- The card changes automatically every 5 seconds.
+- A button is incorporated to change the card.
+- You can modify the width and height of the card.
+
+Se incluyen las siguientes funcionalidades:
+- La carta cambia automáticamente cada 5 segundos.
+- Se incorpora un botón para cambiar la carta.
+- Se puede modificar ancho y alto de la carta.
+
 # Hello World with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
