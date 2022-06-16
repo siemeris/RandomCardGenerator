@@ -1,11 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: green;
-}
-
-.card {
-  height: 355px;
+  background-color: rgba(0, 128, 0, 0.673);
 }
 
 .simb {
@@ -16,4 +12,7 @@ body {
   font-size: 95px;
 }
 
+#prueba {
+  right: 13px;
+}
 /* ♦ ♥ ♠ ♣ */

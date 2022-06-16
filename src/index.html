@@ -13,22 +13,82 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Random Card Generator</a>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Card Width (px)"
+            aria-label="Search"
+            id="CardWidth"
+          />
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Card Height (px)"
+            aria-label="Search"
+            id="CardHeight"
+          />
+          <!-- <button class="btn btn-outline-success" type="submit">
+            Search
+          </button> -->
+        </form>
+      </div>
+    </nav>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Random Card Generator!</h1>
-      <div class="card mx-auto" style="width: 250px">
+      
+      <!-- <h1 class="mt-5">Random Card Generator</h1> -->
+      <!-- Carta  -->
+      <div class="card mx-auto mt-5" style="width:250px; height:400px">
         <div class="card-body py-0">
-          <div class="simb text-start">♥</div>
-          <div class="num">número</div>
-          <div class="simb text-end">♥</div>
+          <div class="simb text-start"></div>
+          <div
+            class="num position-absolute top-50 start-50 translate-middle"
+          ></div>
+          <div class="simb position-absolute bottom-0" id="prueba"></div>
         </div>
       </div>
 
-      <a href="#" class="btn btn-outline-light mx-auto mt-4" id="btn"
-        >Card Generator</a
-      >
+      <!-- Botón Mezclar  -->
+      <a href="#" class="btn btn-dark mx-auto mt-4" id="btn">Card Generator</a>
+      <!-- Input Ancho -->
+      <!-- <div class="row g-3 align-items-center mt-4 mx-auto">
+        <div class="col-auto">
+          <label for="width" class="col-form-label"></label>
+        </div>
+        <div class="col-auto">
+          <input
+            type="text"
+            id="CardWidth"
+            class="form-control"
+            aria-describedby="passwordHelpInline"
+            placeholder="Card Width"
+          />
+        </div>
+      </div> -->
+
+      <!-- Input Alto -->
+      <!-- <div class="row g-3 align-items-center mt-1 mx-auto">
+        <div class="col-auto">
+          <label for="height" class="col-form-label"></label>
+        </div>
+        <div class="col-auto">
+          <input
+            type="text"
+            id="CardHeight"
+            class="form-control"
+            aria-describedby="passwordHelpInline"
+            placeholder="Card Height"
+          />
+        </div> -->
+      </div>
+      <!-- Pie de página -->
       <div class="fixed-bottom p-4 mx-auto" id="btn">
-        Made with ❤️ by
-        <a class="text-light" href="https://github.com/siemeris">Isa</a>
+        Made with ♥ by
+        <a class="text-light" href="https://github.com/siemeris">Isa Sierra</a>
       </div>
     </div>
   </body>
